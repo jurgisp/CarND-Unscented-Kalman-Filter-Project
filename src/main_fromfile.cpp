@@ -26,8 +26,8 @@ int main() {
   std::string line;
   auto i = 0;
   while (std::getline(infile, line)) {
-    if (i++ > 10)
-      break;
+//    if (i++ > 10)
+//      break;
 
     cout << line << endl;
     if (line == "")
